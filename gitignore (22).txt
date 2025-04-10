@@ -1,0 +1,55 @@
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore log files
+*.log
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore build artifacts
+dist/
+build/
+target/
+out/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore coverage reports
+coverage/
+
+# Ignore sensitive files
+*.key
+*.pem
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
